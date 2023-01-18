@@ -1,3 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navMenu {
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+}
+
+.navMenu li {
+    list-style: none;
+}
+
+.navMenu a {
+    display: inline-block;
+    padding: 20px;
+    margin: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+.navMenu a:hover {
+    background-color: lightslategray;
+}
 .container {
     display: inline-flex;
     flex: 1 1 400px;
