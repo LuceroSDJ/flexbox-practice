@@ -1,0 +1,24 @@
+.row {
+    display: flex;
+    align-items: stretch;
+}
+.row .container {
+    display: flex;
+    /* flex:1 enables our divs inside .container to grow and shrink in the same proportion as the window-size
+    and sets the flex-basis of the container wrapping the divs to zero, therefore,
+    .container does not have a starting flex-basis and takes up the available screen-size as the starting point */
+    flex: 1; 
+    /* flex-basis: 900px;
+    flex-grow: 1;
+    flex-shrink: 1; */
+}
+
+.soup {
+    background-color: yellow;
+}
+.fajita {
+    background-color: orangered;
+}
+.rice {
+    background: wheat;
+}
